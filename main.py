@@ -4,7 +4,7 @@ Writes a single original line of office humor to $MAKEFUN_OUTPUT_DIR/entry.txt
 (default /output/entry.txt), exactly the line's bytes, with no trailing newline.
 """
 
-LINE = "The meeting that should have been an email just scheduled a follow-up meeting to discuss why it wasn't an email."
+LINE = "We held a meeting to plan the meeting about the meeting that should have been an email, and it ran long."
 
 assert 1 <= len(LINE) <= 200 and LINE.strip(), "LINE must be 1-200 chars and not only whitespace"
 
